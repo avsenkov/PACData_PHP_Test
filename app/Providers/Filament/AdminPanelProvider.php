@@ -28,7 +28,7 @@ class AdminPanelProvider extends PanelProvider
             ->id('admin')
             ->path('admin')
             ->login()
-            ->viteTheme('resources/css/filament.css')
+            //->viteTheme('resources/css/filament.css')
             ->colors([
                 'primary' => Color::Amber,
             ])
